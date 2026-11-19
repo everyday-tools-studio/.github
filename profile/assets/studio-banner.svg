@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">Everyday Tools Studio</title>
+  <desc id="desc">Cream lettering beside the studio’s wrench and orange tile, arranged on a deep teal drawing board.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#487171" stroke-width="1"/>
+    </pattern>
+    <pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse">
+      <path d="M-2 2l4-4m-3 12L10-1M7 11l4-4" fill="none" stroke="#61928b" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="board" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop stop-color="#073a3d"/><stop offset="1" stop-color="#0c4949"/>
+    </linearGradient>
+    <path id="wrench" fill-rule="evenodd" d="M307 89a6 6 0 0 1 1 10l-61 56q-10 10-1 21l23 23q10 8 20-1l59-51q7-5 11 4c14 46-1 84-42 117l-31-31q-26-29-53-3l-48 49q-17 21 0 47l-34 33c-19 17-48 17-66-1-18-18-17-47 1-66l65-68q10-9 6-24c-15-58 17-110 71-124 28-7 55-3 79 9zM119 308a18 18 0 1 0 0 36 18 18 0 1 0 0-36z"/>
+    <path id="tile" d="M242 242q15-16 31 0l51 51q15 15 0 31l-50 50q-16 15-31 0l-50-51q-14-15 0-31z"/>
+  </defs>
+  <rect width="1280" height="360" fill="url(#board)"/>
+  <path d="M884 0h396v360H630z" fill="#0b4243"/>
+  <path d="M884 0h396v360H630z" fill="url(#grid)" opacity=".6"/>
+  <g fill="none" stroke="#52817d">
+    <path d="M624 360 878 0m-164 360L968 0" opacity=".4"/>
+    <path d="M820 258h422m-222-240v324" stroke-dasharray="3 7" opacity=".7"/>
+    <circle cx="1021" cy="179" r="145" stroke-dasharray="2 8"/>
+    <path d="M876 179h-13m316 0h-13m-145-145V21m0 316v-13"/>
+  </g>
+  <g transform="translate(785 -46) scale(1.02)">
+    <g transform="translate(18 8)" stroke="#76a29b" stroke-width="1.25">
+      <use href="#wrench" fill="url(#hatch)"/><use href="#tile" fill="url(#hatch)"/>
+    </g>
+    <use href="#wrench" fill="#faecd4"/><use href="#tile" fill="#ff904a"/>
+  </g>
+  <g fill="#f9edda" font-family="'DejaVu Sans',Arial,sans-serif" font-weight="bold" font-size="91" letter-spacing="-5">
+    <text x="64" y="162">Everyday</text>
+    <text x="61" y="250">Tools Studio<tspan fill="#ff904a">.</tspan></text>
+  </g>
+  <g fill="none" stroke="#b6c6b8" stroke-width="1.3">
+    <path d="M64 52h32M64 308h32"/>
+    <path stroke="#ff904a" d="M1220 40v14m-7-7h14m-7 252v14m-7-7h14"/>
+  </g>
+</svg>
